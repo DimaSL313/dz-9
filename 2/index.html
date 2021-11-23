@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Домашнее задание 8</title>
+</head>
+
+<body>
+    <form class="type" action="" method="get">
+
+        <div class="row">
+            <div class="col">
+                <div class="input-col">
+                    <label for="type">Type <span class="required">*</span></label>
+                    <select class="shadow" name="" id="type">
+                    <option disabled selected value="">Tractor</option>
+                    <option value="">Mersedes</option>
+                    <option value="">BMW</option>
+                    
+                </select>
+                </div>
+                <div class="input-col">
+                    <label for="subtype">SubType <span class="required">*</span></label>
+                    <input class="shadow" type="text" id="subtype">
+                </div>
+                <div class="input-col">
+                    <label for="specs">Specs </label>
+                    <input class="shadow" type="text" id="specs">
+                </div>
+                <div class="input-col">
+                    <label for="driver">Driver </label>
+                    <select class="background" name="" id="driver">
+                    <option disabled selected value="">select</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                </select>
+                </div>
+            </div>
+            <div class="col">
+                <div class="input-col">
+                    <label for="vehicle">Vehicle ID Number (VIN) <span class="required">*</span></label>
+                    <input class="shadow" type="text" id="vehicle">
+                </div>
+                <div class="input-col">
+                    <label for="make">Make <span class="required">*</span></label>
+                    <input class="shadow" type="text" id="make">
+                </div>
+                <div class="input-col">
+                    <label for="model">Model <span class="required">*</span></label>
+                    <input class="shadow" type="text" id="model">
+                </div>
+                <div class="block">
+                    <div class="col-3">
+                        <label for="year">Year <span class="required">*</span></label>
+                        <input class="shadow" type="text" id="year">
+                    </div>
+                    <div class="col-3">
+                        <label for="gvw">GVW <span class="required">*</span></label>
+                        <input class="shadow" type="text" id="gvw">
+                    </div>
+                    <div class="col-3">
+                        <label for="unit">Unit <span class="required">*</span></label>
+                        <select class="shadow" name="" id="unit">
+                    <option disabled selected value="">LBS</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                </select>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="input-col">
+                    <label for="license">License Plate <span class="required">*</span></label>
+                    <input class="shadow" type="text" id="license">
+                </div>
+                <div class="input-col">
+                    <label for="port">Port Pass RFID <span class="required">*</span></label>
+                    <div class="input-check">
+                        <input class="background check" type="checkbox" name="" id="port">
+                        <input placeholder="Type here" type="text" class="text">
+                    </div>
+
+
+                </div>
+                <div class="input-col">
+                    <label for="ownership">Ownership <span class="required">*</span></label>
+                    <select class="shadow" name="" id="ownership">
+                        <option disabled selected value="">Owned</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                    </select>
+                </div>
+                <div class="input-col">
+                    <label for="truck">Truck Type</label>
+                    <select class="shadow" name="" id="truck">
+                        <option disabled selected value="">Sleeper</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                    </select>
+                </div>
+
+            </div>
+            <div class="col">
+                <div class="input-col">
+                    <p>Registration</p>
+                    <label for="state">State <span class="required">*</span></label>
+                    <select class="shadow" name="" id="state">
+                        <option disabled selected value="">AL - Alabama</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                    </select>
+                </div>
+                <div class="input-col">
+                    <label for="data">License Plate <span class="required">*</span></label>
+                    <input class="shadow" type="date" id="data">
+                </div>
+                <div class="block">
+                    <div class="col-2">
+                        <label for="reg-gvw">GVW<span class="required">*</span></label>
+                        <input class="shadow" type="text" id="reg-gvw">
+                    </div>
+                    <div class="col-2">
+                        <label for="reg-unit">Unit<span class="required">*</span></label>
+                        <select class="shadow" name="" id="reg-unit">
+                <option disabled selected value="">KGS</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+            </select>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col">
+                <p>&nbsp;</p>
+                <div class="input-col">
+                    <label for="restrictions">Unit<span class="required">*</span></label>
+                    <select class="shadow" name="" id="restrictions">
+            <option disabled selected value="">Highway</option>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+        </select>
+                </div>
+                <div class="input-col">
+                    <label for="data-exp">Exp. Data<span class="required">*</span></label>
+                    <input class="shadow" type="date" id="data-exp">
+                </div>
+                <div class="input-col">
+                    <label for="doc">Doc. Image<span class="required">*</span> <span class="btm-file">Upload</span></label>
+                    <input class="btm" type="file" name="" id="doc">
+
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+
+</body>
+
+</html>

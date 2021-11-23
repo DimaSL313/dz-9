@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Питер Парке</title>
+</head>
+
+<body>
+    <h1 class="head"> Привет, меня зовут Питер Парке, будем знакомы ;)</h1>
+    <img class="image" src="img/spider-man.jpg" alt="">
+    <div>
+        <p class="text-about-peter"> Немного про меня: <i> Питер Паркер родился в Куинсе в семье агентов ЦРУ Ричарда и Мэри Паркеров. Питер был зачат во время миссии в Бомбее, Индия. Через восемь месяцев у Ричарда и Мэри родился мальчик, которого они назвали Питером. Теперь, когда
+        они стали отцом и матерью, они перестали заниматься оперативной работой и получили, как тогда казалось, менее опасное задание. Паркеры были внедрены под прикрытием в террористическую организацию Альберта Малика, алжирского подражателя Красного
+        черепа. Разумеется, с такой работой им часто приходилось совершать иностранные командировки, и маленького сына им приходилось часто оставлять на попечение со старшим братом Ричарда Бенджамином и его женой Мэй, которые, впрочем, понятия не имели
+        о том, кем на самом деле работают родители Питера. У Бена и Мэй не было своих детей, и племянника они любили, как родного сына.</i>
+        </p>
+    </div>
+    <form class="form" action="" method="get">
+        <h2 class="head">Оставь свой вопрос и контакты для связи</h2>
+
+        <p>
+            <label class="form-name-label" for="name">Как тебя зовут:</label>
+            <input class="input-text" type="text" name="name" id="name" required>
+        </p>
+        <p>
+            <label class="form-name-label" for="tel">Номер твоего телефона:</label>
+            <input class="input-text" type="tel" name="tel" id="tel" required>
+        </p>
+        <p>
+            <label class="form-name-label" for="youremail">Адрес твоей e-mail почты:</label>
+            <input class="input-text" type="email" name="youremail" id="youremail" required>
+        </p>
+
+
+
+        <p class="title"> Выбери тему для разговора : </p>
+        <p>
+            <label class="form-name-label" for="theme">Тема письма:</label>
+            <select class="theme-message" name="theme" id="theme">
+                <option disabled selected value="">-выбрать тему-</option>
+                <option value="">Фильмы</option>
+                <option value="">Сериалы</option>
+                <option value="">Музыка</option>
+                <option value="">Комиксы</option>
+            </select>
+        </p>
+        <p>
+            <label class="form-name-label" for="message">Сообщение:</label>
+            <textarea class="input-text" name="message" id="message" cols="25" rows="5"></textarea>
+        </p>
+        <div>
+            <button class="button" type="submit">Отправить</button>
+            <button class="button" type="reset">Очистить</button>
+        </div>
+    </form>
+</body>
+
+</html>
